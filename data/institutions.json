@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "institutionName": "ABC University",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Active",
+    "activationStatus": "Active",
+    "spoc": {
+      "name": "Sample SPOC 1",
+      "email": "spoc1@example.com"
+    },
+    "latestActivity": "Skill development workshop completed",
+    "actionStatus": "On Track",
+    "lastActivityDate": "2026-08-30",
+    "evidenceLink": "https://example.com/evidence/1"
+  },
+  {
+    "id": 2,
+    "institutionName": "XYZ Institute of Technology",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Pending",
+    "activationStatus": "Pending",
+    "spoc": {
+      "name": "Sample SPOC 2",
+      "email": "spoc2@example.com"
+    },
+    "latestActivity": "MoU verification in progress",
+    "actionStatus": "Pending",
+    "lastActivityDate": "2026-08-28",
+    "evidenceLink": "https://example.com/evidence/2"
+  },
+  {
+    "id": 3,
+    "institutionName": "PQR College",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "mouStatus": "Pending",
+    "vprfCentreStatus": "Not Active",
+    "activationStatus": "Delayed",
+    "spoc": {
+      "name": "Sample SPOC 3",
+      "email": "spoc3@example.com"
+    },
+    "latestActivity": "Documentation pending",
+    "actionStatus": "Delayed",
+    "lastActivityDate": "2026-08-25",
+    "evidenceLink": "https://example.com/evidence/3"
+  },
+  {
+    "id": 4,
+    "institutionName": "LMN University",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Active",
+    "activationStatus": "Active",
+    "spoc": {
+      "name": "Sample SPOC 4",
+      "email": "spoc4@example.com"
+    },
+    "latestActivity": "Training programme initiated",
+    "actionStatus": "On Track",
+    "lastActivityDate": "2026-08-31",
+    "evidenceLink": "https://example.com/evidence/4"
+  },
+  {
+    "id": 5,
+    "institutionName": "RST College of Engineering",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Pending",
+    "activationStatus": "Pending",
+    "spoc": {
+      "name": "Sample SPOC 5",
+      "email": "spoc5@example.com"
+    },
+    "latestActivity": "Centre setup underway",
+    "actionStatus": "Pending",
+    "lastActivityDate": "2026-08-27",
+    "evidenceLink": "https://example.com/evidence/5"
+  },
+  {
+    "id": 6,
+    "institutionName": "National Institute of Skill Studies",
+    "state": "Haryana",
+    "district": "Faridabad",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Active",
+    "activationStatus": "Active",
+    "spoc": {
+      "name": "Sample SPOC 6",
+      "email": "spoc6@example.com"
+    },
+    "latestActivity": "Lab equipment installed",
+    "actionStatus": "On Track",
+    "lastActivityDate": "2026-08-29",
+    "evidenceLink": "https://example.com/evidence/6"
+  },
+  {
+    "id": 7,
+    "institutionName": "Apex Skill Development Centre",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "mouStatus": "Pending",
+    "vprfCentreStatus": "Pending",
+    "activationStatus": "Pending",
+    "spoc": {
+      "name": "Sample SPOC 7",
+      "email": "spoc7@example.com"
+    },
+    "latestActivity": "Site inspection scheduled",
+    "actionStatus": "Pending",
+    "lastActivityDate": "2026-08-26",
+    "evidenceLink": "https://example.com/evidence/7"
+  },
+  {
+    "id": 8,
+    "institutionName": "Global Technical Academy",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Active",
+    "activationStatus": "Active",
+    "spoc": {
+      "name": "Sample SPOC 8",
+      "email": "spoc8@example.com"
+    },
+    "latestActivity": "First cohort orientation conducted",
+    "actionStatus": "On Track",
+    "lastActivityDate": "2026-08-30",
+    "evidenceLink": "https://example.com/evidence/8"
+  },
+  {
+    "id": 9,
+    "institutionName": "Vanguard Vocational Institute",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "mouStatus": "Pending",
+    "vprfCentreStatus": "Not Active",
+    "activationStatus": "Delayed",
+    "spoc": {
+      "name": "Sample SPOC 9",
+      "email": "spoc9@example.com"
+    },
+    "latestActivity": "SPOC reassignment requested",
+    "actionStatus": "Delayed",
+    "lastActivityDate": "2026-08-20",
+    "evidenceLink": "https://example.com/evidence/9"
+  },
+  {
+    "id": 10,
+    "institutionName": "Sunrise Institute of Technology",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "mouStatus": "Signed",
+    "vprfCentreStatus": "Active",
+    "activationStatus": "Active",
+    "spoc": {
+      "name": "Sample SPOC 10",
+      "email": "spoc10@example.com"
+    },
+    "latestActivity": "Faculty training in progress",
+    "actionStatus": "On Track",
+    "lastActivityDate": "2026-08-31",
+    "evidenceLink": "https://example.com/evidence/10"
+  }
+]
