@@ -14,7 +14,7 @@
     "latestActivity": "Skill development workshop completed",
     "actionStatus": "On Track",
     "lastActivityDate": "2026-08-30",
-    "evidenceLink": "https://example.com/evidence/1"
+    "evidenceLink": "/sample-evidence.html?id=1"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
     "latestActivity": "MoU verification in progress",
     "actionStatus": "Pending",
     "lastActivityDate": "2026-08-28",
-    "evidenceLink": "https://example.com/evidence/2"
+    "evidenceLink": "/sample-evidence.html?id=2"
   },
   {
     "id": 3,
@@ -48,7 +48,7 @@
     "latestActivity": "Documentation pending",
     "actionStatus": "Delayed",
     "lastActivityDate": "2026-08-25",
-    "evidenceLink": "https://example.com/evidence/3"
+    "evidenceLink": "/sample-evidence.html?id=3"
   },
   {
     "id": 4,
@@ -65,7 +65,7 @@
     "latestActivity": "Training programme initiated",
     "actionStatus": "On Track",
     "lastActivityDate": "2026-08-31",
-    "evidenceLink": "https://example.com/evidence/4"
+    "evidenceLink": "/sample-evidence.html?id=4"
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
     "latestActivity": "Centre setup underway",
     "actionStatus": "Pending",
     "lastActivityDate": "2026-08-27",
-    "evidenceLink": "https://example.com/evidence/5"
+    "evidenceLink": "/sample-evidence.html?id=5"
   },
   {
     "id": 6,
@@ -99,7 +99,7 @@
     "latestActivity": "Lab equipment installed",
     "actionStatus": "On Track",
     "lastActivityDate": "2026-08-29",
-    "evidenceLink": "https://example.com/evidence/6"
+    "evidenceLink": "/sample-evidence.html?id=6"
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
     "latestActivity": "Site inspection scheduled",
     "actionStatus": "Pending",
     "lastActivityDate": "2026-08-26",
-    "evidenceLink": "https://example.com/evidence/7"
+    "evidenceLink": "/sample-evidence.html?id=7"
   },
   {
     "id": 8,
@@ -133,7 +133,7 @@
     "latestActivity": "First cohort orientation conducted",
     "actionStatus": "On Track",
     "lastActivityDate": "2026-08-30",
-    "evidenceLink": "https://example.com/evidence/8"
+    "evidenceLink": "/sample-evidence.html?id=8"
   },
   {
     "id": 9,
@@ -150,7 +150,7 @@
     "latestActivity": "SPOC reassignment requested",
     "actionStatus": "Delayed",
     "lastActivityDate": "2026-08-20",
-    "evidenceLink": "https://example.com/evidence/9"
+    "evidenceLink": "/sample-evidence.html?id=9"
   },
   {
     "id": 10,
@@ -167,6 +167,6 @@
     "latestActivity": "Faculty training in progress",
     "actionStatus": "On Track",
     "lastActivityDate": "2026-08-31",
-    "evidenceLink": "https://example.com/evidence/10"
+    "evidenceLink": "/sample-evidence.html?id=10"
   }
 ]

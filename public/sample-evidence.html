@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Verification Evidence Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-blue: #38bdf8;
+      --accent-green: #34d399;
+      --border: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 720px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent-blue);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.4rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .header-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    .notice-box {
+      background: rgba(234, 179, 8, 0.1);
+      border-left: 4px solid #eab308;
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      color: #fef08a;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .detail-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .detail-value {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .status-active {
+      color: var(--accent-green);
+    }
+
+    .document-preview {
+      background: #0f172a;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .document-preview svg {
+      color: var(--accent-blue);
+      margin-bottom: 1rem;
+    }
+
+    .document-preview h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .document-preview p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .btn-close {
+      background: #334155;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1.25rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn-close:hover {
+      background: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="badge">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      Sample Verification Record
+    </div>
+
+    <h1 class="header-title">MoU & Centre Readiness Evidence</h1>
+    <p class="subtitle">
+      Education & Skill Development Workstream • HEI Onboarding & VPRF Activation Verification Document
+    </p>
+
+    <div class="notice-box">
+      <strong>📌 Sample Evidence Link Notice:</strong><br />
+      This document serves as a static sample evidence file for demonstration and assignment review purposes. All credentials, stamps, and data presented here are non-sensitive mock data.
+    </div>
+
+    <div class="details-grid">
+      <div class="detail-item">
+        <span class="detail-label">Verification ID</span>
+        <span class="detail-value">EVID-2026-VPRF-SAMPLE</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Document Type</span>
+        <span class="detail-value">MoU Agreement & Readiness Report</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Verification Status</span>
+        <span class="detail-value status-active">✓ Sample Verified</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Issuing Body</span>
+        <span class="detail-value">Education & Skill Workstream</span>
+      </div>
+    </div>
+
+    <div class="document-preview">
+      <svg width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      <h4>MoU Executive Sign-Off & Verification Artifact</h4>
+      <p>
+        This sample evidence file confirms institutional MoU execution, SPOC nomination, lab space allocation, and 30-day action plan approval for VPRF activation.
+      </p>
+    </div>
+
+    <div class="footer">
+      <span>HEI & VPRF Activation Dashboard Prototype</span>
+      <a href="javascript:window.close()" class="btn-close">Close Tab</a>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    if (id) {
+      document.querySelector('.detail-value').textContent = `EVID-2026-VPRF-#${id.padStart(3, '0')}`;
+    }
+  </script>
+</body>
+</html>
