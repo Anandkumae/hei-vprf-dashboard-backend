@@ -1,52 +1,46 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+
 const router = express.Router();
+const DATA_FILE = path.join(__dirname, "../data/institutions.json");
 
-const dataPath = path.join(__dirname, "../data/institutions.json");
-
-function getInstitutions() {
+function loadInstitutions() {
   try {
-    const rawData = fs.readFileSync(dataPath, "utf8");
-    return JSON.parse(rawData);
+    const raw = fs.readFileSync(DATA_FILE, "utf-8");
+    return JSON.parse(raw);
   } catch (err) {
+    console.error("Failed to read institutions dataset:", err.message);
     return [];
   }
 }
 
-/**
- * GET /api/institutions
- * Fetch all institution records
- */
 router.get("/", (req, res) => {
-  const institutions = getInstitutions();
+  const data = loadInstitutions();
   res.json({
     success: true,
-    count: institutions.length,
-    data: institutions
+    count: data.length,
+    data
   });
 });
 
-/**
- * GET /api/institutions/:id
- * Fetch a single institution record by ID
- */
 router.get("/:id", (req, res) => {
-  const id = Number(req.params.id);
-  const institutions = getInstitutions();
-  const institution = institutions.find((item) => item.id === id);
+  const targetId = parseInt(req.params.id, 10);
+  const records = loadInstitutions();
+  const match = records.find((item) => item.id === targetId);
 
-  if (!institution) {
+  if (!match) {
     return res.status(404).json({
       success: false,
-      message: "Institution not found"
+      message: `Institution #${req.params.id} not found`
     });
   }
 
   res.json({
     success: true,
-    data: institution
+    data: match
   });
 });
 
 module.exports = router;
+
